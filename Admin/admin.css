@@ -1,0 +1,61 @@
+ .Admin_product{
+    display: flex;
+    background-color: bisque;
+ }
+ /* Admin left */
+ .Admin_left{
+    height: auto;
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+}
+.Admin_left .Logo_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.Logo_admin{
+   
+    text-decoration-color: yellow;
+    color: yellow;
+}
+.Admin_product .Admin_left ul {
+    list-style-type: none;
+
+}
+.Logout_Button{
+    text-align: left;
+    margin-left: 50px
+}
+.Admin_left .menu {
+    text-align: left;
+    margin-left: 70px;
+    line-height: 50px;
+}
+/* Admin right */
+.Admin_right{
+    height: auto;
+    width: 80%;
+}
+.Admin_menu{
+    margin-left: 1000px;
+}
+#bell {
+    padding: 20px 20px ;
+}
+#admin{
+    padding-left: 3px;
+}
+.table , th, td{
+    border: 2px black solid;
+    text-align: center;
+}
+.table{
+    width: 80% ;
+    border-collapse:collapse;
+    /* border-radius: 20px ; */
+}
+.Add_product{
+    background-color: yellow;
+}

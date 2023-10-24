@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block User Form</title>
+    <style>
+        .delete {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+        
+        .delete h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .form_group_delete{
+            margin-bottom: 15px;
+        }
+        
+        .form_group_delete label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form_group_delete input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .form_group_delete button {
+            padding: 8px 15px ;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 200px;
+            
+        }
+
+        .form_group_delete{
+            display: flex;
+            padding-left: 20px;
+        }
+        #button_exit_delete{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="delete">
+        <h2>Block User</h2>
+        <form>
+            <div class="form_group_delete">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter the username">
+            </div>
+            <div class="form_group_delete">
+                <button type="submit" id="button_block" >Block</button>
+                <button type="submit" id="button_exit_delete">Exit</button>
+            </div>
+        
+        </form>
+    </div>
+</body>
+</html>
