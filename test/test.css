@@ -13,7 +13,10 @@
   }
   
   #name-input,
-  #email-input,
+  #price-input,
+  #quantity-input,
+  #discount-input,
+  #location-input,
   #update-name-input,
   #update-email-input {
     padding: 10px;
